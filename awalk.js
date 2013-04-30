@@ -73,6 +73,11 @@ var awalk = function(dir, done) {
 	});
 };
 
-awalk('/var/www/dev/travelground', function(err, results) {console.log(results.length)});
+awalk('/var/www/dev.travelground', function(err, results) {
+	if (err)
+		throw err;
+
+	console.log(results.length);
+});
 
 exports.awalk = awalk;
