@@ -1,7 +1,7 @@
 Awalk
 =====
 
-Author: Jono Gould ([TravelGround.com](http://travelground.com)), @jonogould
+by Jono Gould ([TravelGround](http://github.com/TravelGround)), @jonogould
 
 An asynchronous recursive file walker that returns an array of files (filename, path and file size).
 
