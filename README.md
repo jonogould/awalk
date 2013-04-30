@@ -16,7 +16,7 @@ To get these tools running, you need the following dependencies, available off n
 
 - [underscorejs](http://underscorejs.org)
 
-To install this dependency the easy way, run the following command from the ``` awalk ``` root dir:
+To install this dependency (the easy way), run the following command from the ``` awalk ``` root dir:
 
 ``` $ npm install ```
 
@@ -26,7 +26,7 @@ Or add them individually by calling:
 
 ``` $ npm install underscore ```
 
-Lastly the script executable using ```chmod +x awalk.js```
+Lastly make the script executable using ```chmod +x awalk.js```
 
 
 ## Usage
