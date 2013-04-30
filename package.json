@@ -13,6 +13,16 @@
     "node": "0.8.x"
   },
   "main": "awalk.js",
-  "repository": "",
-  "license": "BSD"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TravelGround/awalk.git"
+  },
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "14086055264461511022ae97ab68fbc566d412b1",
+  "keywords": [
+    "async",
+    "file",
+    "walker"
+  ]
 }
