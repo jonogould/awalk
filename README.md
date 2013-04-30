@@ -39,4 +39,8 @@ How do you use ``` awalk ```, I hear you asking? Well:
 - There are your helpful instructions :D
 
 
+## Examples
+
+Check out the [wiki](https://github.com/TravelGround/awalk/wiki) for some examples on what this tool could be used for, check it out and add your own!
+
 ### Now go play, use it to create useful stuff!
