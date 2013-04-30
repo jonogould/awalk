@@ -1,13 +1,16 @@
-//	Dependancies
-var fs = require('fs');
-var _ = require('underscore');
-
-
 /*
-*	The big walk
-*	============
+*	awalk.js
+*	=======================================================
+*
+*	Author: 	jono gould
+*	Company: 	TravelGround.com
+*	Date: 		30 April 2013
+*
+*	Description:
 *	Asynchronously lists all files (filename and full path)
 *	from within every folder of the specified dir.
+*
+*	=======================================================
 *
 *	Returns = array of objects (filename, full path)
 *
@@ -15,6 +18,13 @@ var _ = require('underscore');
 *	done 	= callback that is triggered on completion
 */
 
+
+//	Dependancies
+var fs = require('fs');
+var _ = require('underscore');
+
+
+//	awalk function
 var awalk = function(dir, done) {
 	//	The results array
 	var results = [];
