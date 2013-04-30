@@ -18,11 +18,11 @@ To get these tools running, you need the following dependencies, available off n
 
 To install this dependency the easy way, run the following command from the ``` awalk ``` root dir:
 
-``` $ npm init ```
+``` $ npm install ```
 
 Or place the dependencies there manually but adding them to a ``` node_modules ``` folder
 
-Or add them by calling:
+Or add them individually by calling:
 
 ``` $ npm install underscore ```
 
