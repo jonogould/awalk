@@ -26,6 +26,8 @@ Or add them by calling:
 
 ``` $ npm install underscore ```
 
+Lastly the script executable using ```chmod +x awalk.js```
+
 
 ## Usage
 

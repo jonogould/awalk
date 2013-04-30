@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 /*
 *	awalk.js
 *	=======================================================
@@ -70,5 +72,7 @@ var awalk = function(dir, done) {
 		});
 	});
 };
+
+awalk('/var/www/dev/travelground', function(err, results) {console.log(results.length)});
 
 exports.awalk = awalk;
